@@ -59,7 +59,7 @@ class Chef
               run_dir = '/var/run/mysqld'
               pid_file = '/var/run/mysql/mysql.pid'
               socket_file = '/var/lib/mysql/mysql.sock'
-              package_name = 'mysql-server'
+              package_name = 'mysql-community-server'
               service_name = 'mysqld'
             end
           when '6'
